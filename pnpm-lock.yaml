@@ -15,6 +15,7 @@ specifiers:
   '@antfu/eslint-config': ^0.36.0
   '@testing-library/angular': ^13.4.0
   '@testing-library/jest-dom': ^5.16.5
+  '@types/testing-library__jest-dom': ^5.14.5
   eslint: ^8.36.0
   jsdom: ^21.1.1
   rxjs: ~7.8.0
@@ -43,6 +44,7 @@ devDependencies:
   '@antfu/eslint-config': 0.36.0_vgl77cfdswitgr47lm5swmv43m
   '@testing-library/angular': 13.4.0_zrafkupzpytf4scvi2k6zd4bn4
   '@testing-library/jest-dom': 5.16.5
+  '@types/testing-library__jest-dom': 5.14.5
   eslint: 8.36.0
   jsdom: 21.1.1
   typescript: 4.9.5
