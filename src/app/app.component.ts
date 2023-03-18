@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component } from '@angular/core'
 
 @Component({
   selector: 'app-root',
@@ -23,10 +23,10 @@ import { Component } from '@angular/core';
         <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
       </li>
     </ul>
-    
+
   `,
-  styles: []
+  styles: [],
 })
 export class AppComponent {
-  title = 'blog-angular-testing';
+  title = 'blog-angular-testing'
 }
