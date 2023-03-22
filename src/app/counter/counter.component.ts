@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core'
+import { ChangeDetectorRef, Component, Input } from '@angular/core'
 
 @Component({
   selector: 'counter',
@@ -10,6 +10,9 @@ import { Component, Input } from '@angular/core'
   standalone: true,
 })
 export class CounterComponent {
+  constructor(private cdr: ChangeDetectorRef) {
+  }
+
   @Input() counter = 0
 
   increment() {
